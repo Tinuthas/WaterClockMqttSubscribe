@@ -12,12 +12,13 @@ public class MqttConfig {
     private String username;
     private String password;
 
+    //set your mqtt configs 
     public MqttConfig() {
-        this.topic = "fiap/waterclock/sensor/flow";
-        this.host = "soldier.cloudmqtt.com";
-        this.port = 16925;
-        this.username = "inkphijn";
-        this.password = "F1QexKFsttXE";
+        this.topic = "";
+        this.host = "";
+        this.port = 8080;
+        this.username = "";
+        this.password = "";
     }
 
     public void configureMqtt(){
